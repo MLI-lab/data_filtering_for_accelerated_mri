@@ -1,0 +1,85 @@
+{
+    "name": "data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25",
+    "uuid": "fb9d8674-6f79-494e-8fe1-cce8d67ae9ba",
+    "creation_date": "2025-04-26",
+    "output_dir": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8",
+    "checkpoints": {
+        "epoch_1": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_1.pt",
+        "epoch_2": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_2.pt",
+        "epoch_3": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_3.pt",
+        "epoch_4": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_4.pt",
+        "epoch_5": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_5.pt",
+        "epoch_6": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_6.pt",
+        "epoch_7": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_7.pt",
+        "epoch_8": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_8.pt",
+        "epoch_9": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_9.pt",
+        "epoch_10": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_10.pt",
+        "epoch_11": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_11.pt",
+        "epoch_12": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_12.pt",
+        "epoch_13": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_13.pt",
+        "epoch_14": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_14.pt",
+        "epoch_15": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_15.pt",
+        "epoch_16": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_16.pt",
+        "epoch_17": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_17.pt",
+        "epoch_18": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_18.pt",
+        "epoch_19": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_19.pt",
+        "epoch_20": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_20.pt",
+        "epoch_21": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_21.pt",
+        "epoch_22": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_22.pt",
+        "epoch_23": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_23.pt",
+        "epoch_24": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_24.pt",
+        "epoch_25": "/mnt/hdd_pool_zion/projects/data_filtering_mri/exp_data_kl/outputs/train/End2EndSetup_data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25_varnet-large_c8_accel=8/checkpoints/epoch_25.pt"
+    },
+    "exp_setup": {
+        "world_size": 1,
+        "model_config": {
+            "model": "varnet",
+            "hyperparams": {
+                "num_cascades": 8,
+                "chans": 36
+            },
+            "accel_factors": [
+                8
+            ],
+            "lr": 0.0005,
+            "batch_size": 2
+        },
+        "train_dataset_base_path": "/kang/data_filtering_mri",
+        "finetune": null,
+        "num_workers": 4,
+        "num_checkpoints": 1,
+        "model_seed": 0,
+        "train_config": {
+            "name": "data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=25",
+            "num_epochs": 25,
+            "samples_seen": 2331025,
+            "epochs_setup": {
+                "1": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "2": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "3": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "4": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "5": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "6": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "7": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "8": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "9": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "10": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "11": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "12": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "13": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "14": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "15": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "16": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "17": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "18": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "19": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "20": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "21": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "22": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "23": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "24": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json",
+                "25": "datasets/train/data_pool_random_volume_subset_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json"
+            }
+        }
+    }
+}

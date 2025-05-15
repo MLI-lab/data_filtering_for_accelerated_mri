@@ -1,0 +1,10 @@
+hydra_config_path: ../../../configs/train_eval_setups/DiffModelVariationSetup/hydra
+hydra_config_name: config
+exp_train: mri2d_multicoil/train_large
+exp_eval: mri2d_multicoil/variational_large
+eval_use_ema_model: true
+eval_model_glob: ema*.pt
+train_descr: ''
+train_note: ''
+eval_descr: ''
+eval_note: ''

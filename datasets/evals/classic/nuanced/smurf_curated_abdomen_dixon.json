@@ -1,0 +1,57 @@
+{
+    "dataset_name": "smurf_curated_abdomen_dixon",
+    "uuid": "d805c502-6282-4444-a453-1880d5068360",
+    "num_slices": 5,
+    "files": {
+        "abdomen_GRE_V7_2D3ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V7_2D3ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V7_2D3ptDixon_m1.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V7_2D3ptDixon_m1.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "1": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V8_2D3ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V8_2D3ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V8_2D3ptDixon_m1.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V8_2D3ptDixon_m1.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V9_2D3ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V9_2D3ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "4": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

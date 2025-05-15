@@ -1,0 +1,8 @@
+model: u-net
+hyperparams:
+  chans: 32
+  num_pools: 4
+accel_factors:
+- 4
+lr: 0.001
+batch_size: 8

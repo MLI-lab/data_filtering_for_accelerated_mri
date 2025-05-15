@@ -1,0 +1,26 @@
+defaults:
+  - base
+
+name: mri2d
+
+params:
+  which_challenge: 'multicoil' # 'singlecoil'
+  use_real_synth_data: False # returns fourier transform of target as synth measurement
+  return_magnitude_image: True # returns magnitude image instead of complex image
+  return_cropped_pseudoinverse: True # returns magnitude image instead of complex image
+  scale_target_by_kspacenorm: True # scales the target by sqrt( np.prod(shape) ) / kspace.norm()
+  scale_target_by_kspacenorm_3d: False
+  target_scaling_factor: 1.0 # multiplies target with this factor
+  target_interpolate_by_factor : 1.0
+  target_interpolate_factor_is_interval : false
+  target_interpolate_method: 'nearest' # 'nearest', 'linear', 'cubic'
+  target_random_crop_size : null
+  normalize_target: False # normalizes to pixelwise N(0,1)
+  target_type: 'rss' # 'complex_fullysampled_rec' 
+  pseudoinverse_conv_averaging_shape: null
+  multicoil_reduction_op: 'norm' # sum, mean, norm
+  mask_enabled: True
+  mask_type: equispaced # equispaced, random, Poisson
+  mask_accelerations: 4.0
+  mask_center_fractions: [0.08]
+  mask_use_seed: True

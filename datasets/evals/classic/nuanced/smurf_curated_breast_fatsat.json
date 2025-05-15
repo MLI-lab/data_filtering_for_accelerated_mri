@@ -1,0 +1,43 @@
+{
+    "dataset_name": "smurf_curated_breast_fatsat",
+    "uuid": "1dd53223-5ef6-4094-8ee5-5a6b9163849c",
+    "num_slices": 5,
+    "files": {
+        "breasts_GRE_V4_fatSat.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V4_fatSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                },
+                "1": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V5_fatSat.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V5_fatSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "1": {
+                    "freq": 1
+                },
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V6_fatSat.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V6_fatSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

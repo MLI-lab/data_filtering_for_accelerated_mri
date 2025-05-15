@@ -1,0 +1,21 @@
+name: mri2d
+params:
+  mask_enabled: True
+  mask_type: equispaced # equispaced, random, Poisson
+  mask_accelerations: 4.0
+  mask_center_fractions: [0.08]
+  mask_use_seed: True
+
+  include_sensitivitymaps: False # aka singlecoil
+  sensitivitymaps_complex : True
+  sensitivitymaps_fillouter : False
+
+  # if input is complex (320, 320, 2) and output should be (640, 320, 2)
+  zero_padding: null #[0, 160]
+  input_real2complex: False
+
+  # if input is real (320, 320) and output should be (320, 320, 2)
+  #zero_padding: [0, 0]
+  #real_to_complex_via_padding: True
+  #input_real2complex : True
+  conv_averaging_shape: null # [6, 1, 1] # (35, 640, 320, 2) -> (210, 640, 320, 2))

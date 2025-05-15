@@ -1,0 +1,34 @@
+defaults:
+  - base
+
+method: 'variational'
+
+
+# optimization of the variational method
+variational_optim:
+  lr: 0.001
+  iterations: 1000
+  #lr_scheduler: ReduceLROnPlateau
+  clip_grad_max_norm: null
+  gradient_acc_steps_data_con: [0]
+  gradient_acc_steps_prior_reg: [0]
+  skip_iterations: 0
+  warmstart_iters : 0
+
+  lr_scheduler_name: 'ReduceLROnPlateau'
+  lr_scheduler_params:    
+    mode: 'min'
+    factor: 0.5
+    patience: 25
+    verbose: True
+
+# parametrizing how the diffusion term is evaluated during reconstruction
+diffusion_reg_params:
+  reg_strength: 0.1
+  adapt_reg_strength: True
+  steps_scaler: 0.4
+  time_sampling_method: 'random' # linear_descending
+  repetition: 1
+
+# slicing the data term
+slice_method_prior_reg: null

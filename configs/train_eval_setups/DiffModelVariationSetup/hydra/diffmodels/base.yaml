@@ -1,0 +1,52 @@
+train:
+  batch_size: 1
+  save_model_every_n_epoch: 10
+  use_ema: true
+  ema_warm_start_steps: 500
+  ema_decay: 0.999
+  lr: 4e-4
+  cache_dataset: False
+  cache_dataset_in_gpu: False
+  cache_dataset_load_from_disk: False
+  cache_dataset_store_on_disk: False
+  cache_dataset_disk_path: null
+  cache_dataset_repeats: 1
+  dataloader_num_workers: 0
+  log_samples_nr: 2 # how many samples are logged from each dataset, previous to training
+
+val:
+  sampling:
+    method: 'ddim' # ddpm | ddim
+    eta: .95
+    num_steps: 400
+    batch_size: 1
+    eps: 1e-6
+    cycling: False
+    cycling_skip_conditioning: False
+    score_mini_batch_size: 30
+  sample_each_nth_epoch: 1           # within the training loop, how often is DDIM applied
+  save_img_each_sample_iteration: 200 # within each DDIM sampling process, how many images are logged inbetween
+
+arch:
+  in_channels: 1
+  out_channels: 1
+  num_channels: 32
+  num_heads: 4
+  num_res_blocks: 4
+  attention_resolutions: '16'
+  dropout: 0.0
+  resamp_with_conv: True
+  learn_sigma: False
+  use_scale_shift_norm: True
+  use_fp16: False
+  resblock_updown: True
+  num_heads_upsample: -1
+  var_type: fixedsmall
+  num_head_channels: 64
+  use_new_attention_order: False
+  channel_mult: [0.5,1,1,2,2,4,4]
+
+sde:
+  beta_min: 0.0001
+  beta_max: 0.02
+  num_steps: 1000

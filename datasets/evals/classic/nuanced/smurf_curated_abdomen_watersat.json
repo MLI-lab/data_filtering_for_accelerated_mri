@@ -1,0 +1,43 @@
+{
+    "dataset_name": "smurf_curated_abdomen_watersat",
+    "uuid": "3aa9d4a7-9d74-4590-b551-274b212f650c",
+    "num_slices": 5,
+    "files": {
+        "abdomen_GRE_V7_waterSat.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V7_waterSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                },
+                "1": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V8_waterSat.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V8_waterSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "1": {
+                    "freq": 1
+                },
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V9_waterSat.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V9_waterSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

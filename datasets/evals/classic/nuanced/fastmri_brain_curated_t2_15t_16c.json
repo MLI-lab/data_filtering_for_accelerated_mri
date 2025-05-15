@@ -1,0 +1,57 @@
+{
+    "dataset_name": "fastmri_brain_curated_t2_15t_16c",
+    "uuid": "77b41c15-5b97-4c36-baf9-31b69a6ed96a",
+    "num_slices": 5,
+    "files": {
+        "file_brain_AXT2_202_2020253.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXT2_202_2020253.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_brain_AXT2_205_2050152.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXT2_205_2050152.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_brain_AXT2_205_6000092.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXT2_205_6000092.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "6": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_brain_AXT2_205_2050249.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXT2_205_2050249.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "9": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_brain_AXT2_205_6000024.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXT2_205_6000024.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "12": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

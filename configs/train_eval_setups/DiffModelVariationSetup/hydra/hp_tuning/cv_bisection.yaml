@@ -1,0 +1,10 @@
+defaults:
+  - base
+
+name: cv_bisection
+params:
+  max_steps: 9
+  validation_line_ration: 0
+  reg_params_bound: [0.01, 0.49]
+  validation_times: 1
+  variational_optim_iterations_hp: 150

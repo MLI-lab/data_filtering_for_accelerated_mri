@@ -1,0 +1,43 @@
+{
+    "dataset_name": "fastmri_brain_curated_flair_15t_16-20c",
+    "uuid": "5a3b1942-4060-4fed-a43e-56adb17a8657",
+    "num_slices": 5,
+    "files": {
+        "file_brain_AXFLAIR_202_6000415.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXFLAIR_202_6000415.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "1": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_brain_AXFLAIR_202_6000560.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXFLAIR_202_6000560.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                },
+                "8": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_brain_AXFLAIR_202_6000552.h5": {
+            "path": "/media/ssd0/fastMRIdata/brain/multicoil_test/file_brain_AXFLAIR_202_6000552.h5",
+            "dataset_name": "fastmri_brain",
+            "split": "test",
+            "slices": {
+                "5": {
+                    "freq": 1
+                },
+                "11": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

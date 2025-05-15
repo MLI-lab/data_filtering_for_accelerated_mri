@@ -1,0 +1,29 @@
+# # added requirements for dm code
+pytest
+ipykernel
+imageio
+ipywidgets
+sigpy
+plyfile
+hydra-core
+hydra-submitit-launcher
+hydra-ray-launcher
+wandb
+omegaconf
+moviepy
+linear_operator
+k3d
+ptwt
+pydantic_yaml
+zenodo_get
+twixtools
+fastmri==0.3.0
+ismrmrd==1.12.0
+matplotlib==3.7.3
+pandas==2.0.3
+tqdm==4.66.1
+timm==0.9.7
+PyYAML==6.0.1
+DISTS-pytorch == 0.1
+lpips == 0.1.4
+dreamsim == 0.2.1

@@ -1,0 +1,57 @@
+{
+    "dataset_name": "fastmri_knee_curated_pd_15t",
+    "uuid": "7d92f656-3773-46cc-b42a-4819d630bc64",
+    "num_slices": 5,
+    "files": {
+        "file1002274.h5": {
+            "path": "/media/ssd0/fastMRIdata/knee/multicoil_val/file1002274.h5",
+            "dataset_name": "fastmri_knee",
+            "split": "val",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "file1001687.h5": {
+            "path": "/media/ssd0/fastMRIdata/knee/multicoil_val/file1001687.h5",
+            "dataset_name": "fastmri_knee",
+            "split": "val",
+            "slices": {
+                "11": {
+                    "freq": 1
+                }
+            }
+        },
+        "file1001983.h5": {
+            "path": "/media/ssd0/fastMRIdata/knee/multicoil_val/file1001983.h5",
+            "dataset_name": "fastmri_knee",
+            "split": "val",
+            "slices": {
+                "18": {
+                    "freq": 1
+                }
+            }
+        },
+        "file1001219.h5": {
+            "path": "/media/ssd0/fastMRIdata/knee/multicoil_val/file1001219.h5",
+            "dataset_name": "fastmri_knee",
+            "split": "val",
+            "slices": {
+                "23": {
+                    "freq": 1
+                }
+            }
+        },
+        "file1002035.h5": {
+            "path": "/media/ssd0/fastMRIdata/knee/multicoil_val/file1002035.h5",
+            "dataset_name": "fastmri_knee",
+            "split": "val",
+            "slices": {
+                "28": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

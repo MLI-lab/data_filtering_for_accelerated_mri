@@ -1,0 +1,57 @@
+{
+    "dataset_name": "ocmr_curated_sax_15T",
+    "uuid": "ba8fdc30-a626-49ee-83f7-73569f2e3777",
+    "num_slices": 5,
+    "files": {
+        "fs_0010_1_5T_t=14_m0.h5": {
+            "path": "/media/ssd0/ocmr/converted/fs_0010_1_5T_t=14_m0.h5",
+            "dataset_name": "ocmr",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "fs_0085_1_5T_t=16_m0.h5": {
+            "path": "/media/ssd0/ocmr/converted/fs_0085_1_5T_t=16_m0.h5",
+            "dataset_name": "ocmr",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "fs_0011_1_5T_t=7_m0.h5": {
+            "path": "/media/ssd0/ocmr/converted/fs_0011_1_5T_t=7_m0.h5",
+            "dataset_name": "ocmr",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "fs_0084_1_5T_t=10_m0.h5": {
+            "path": "/media/ssd0/ocmr/converted/fs_0084_1_5T_t=10_m0.h5",
+            "dataset_name": "ocmr",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "fs_0089_1_5T_t=3_m0.h5": {
+            "path": "/media/ssd0/ocmr/converted/fs_0089_1_5T_t=3_m0.h5",
+            "dataset_name": "ocmr",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

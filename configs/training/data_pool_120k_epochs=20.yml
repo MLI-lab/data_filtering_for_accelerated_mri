@@ -1,0 +1,24 @@
+name: data_pool_120k_epochs=20
+num_epochs: 20
+samples_seen: 2399980
+epochs_setup:
+  1: datasets/train/data_pool_120k.json
+  2: datasets/train/data_pool_120k.json
+  3: datasets/train/data_pool_120k.json
+  4: datasets/train/data_pool_120k.json
+  5: datasets/train/data_pool_120k.json
+  6: datasets/train/data_pool_120k.json
+  7: datasets/train/data_pool_120k.json
+  8: datasets/train/data_pool_120k.json
+  9: datasets/train/data_pool_120k.json
+  10: datasets/train/data_pool_120k.json
+  11: datasets/train/data_pool_120k.json
+  12: datasets/train/data_pool_120k.json
+  13: datasets/train/data_pool_120k.json
+  14: datasets/train/data_pool_120k.json
+  15: datasets/train/data_pool_120k.json
+  16: datasets/train/data_pool_120k.json
+  17: datasets/train/data_pool_120k.json
+  18: datasets/train/data_pool_120k.json
+  19: datasets/train/data_pool_120k.json
+  20: datasets/train/data_pool_120k.json

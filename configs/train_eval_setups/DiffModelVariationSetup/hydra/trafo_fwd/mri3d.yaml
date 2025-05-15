@@ -1,0 +1,14 @@
+name: mri3d
+params:
+  # configuration of masks (when implemented)
+  mask_enabled: True
+  mask_type: equispaced # equispaced or random, dataset
+  mask_accelerations: 4.0
+  mask_center_fractions: [0.08]
+  mask_use_seed: False
+
+  include_sensitivitymaps: False # aka singlecoil
+  sensitivitymaps_complex : True
+  sensitivitymaps_fillouter : False
+
+  wrapped_2d_mode: False

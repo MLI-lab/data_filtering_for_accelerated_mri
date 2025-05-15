@@ -1,0 +1,43 @@
+{
+    "dataset_name": "smurf_curated_breast_watersat",
+    "uuid": "aa3df255-f61d-4a1c-8644-5455d7b4735c",
+    "num_slices": 5,
+    "files": {
+        "breasts_GRE_V4_waterSat.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V4_waterSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                },
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V5_waterSat.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V5_waterSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V6_waterSat.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V6_waterSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "1": {
+                    "freq": 1
+                },
+                "3": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

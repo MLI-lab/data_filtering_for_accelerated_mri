@@ -1,0 +1,43 @@
+{
+    "dataset_name": "smurf_curated_abdomen_conventional",
+    "uuid": "2686141e-e751-4590-bbd1-914e83e8421b",
+    "num_slices": 5,
+    "files": {
+        "abdomen_GRE_V7_conventional.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V7_conventional.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "1": {
+                    "freq": 1
+                },
+                "4": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V8_conventional.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V8_conventional.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "abdomen_GRE_V9_conventional.h5": {
+            "path": "/media/ssd0/smurf/converted/abdomen_GRE_V9_conventional.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                },
+                "0": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

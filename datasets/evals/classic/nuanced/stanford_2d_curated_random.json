@@ -1,0 +1,198 @@
+{
+    "dataset_name": "stanford_2d_curated_random",
+    "uuid": "430539fb-022d-42ff-8afe-8f5241c5fbfd",
+    "num_slices": 24,
+    "files": {
+        "5ee5b565-a26a-4f48-bf6c-36cc88d7773f.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/5ee5b565-a26a-4f48-bf6c-36cc88d7773f.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "1f8e6baf-d2f5-4a81-8f0f-fbec620550eb.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/1f8e6baf-d2f5-4a81-8f0f-fbec620550eb.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "23": {
+                    "freq": 1
+                },
+                "31": {
+                    "freq": 1
+                }
+            }
+        },
+        "6b0f4577-10d1-4f8a-b321-3818a27dbbea.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/6b0f4577-10d1-4f8a-b321-3818a27dbbea.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "12": {
+                    "freq": 1
+                },
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "53293c62-70d3-4834-9db9-572a69c49410.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/53293c62-70d3-4834-9db9-572a69c49410.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "12": {
+                    "freq": 1
+                }
+            }
+        },
+        "5a9d6228-d1fd-4c36-83bb-a9eef50a7a87.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/5a9d6228-d1fd-4c36-83bb-a9eef50a7a87.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "5": {
+                    "freq": 1
+                }
+            }
+        },
+        "b738ca00-bdf1-463c-901e-28ae7001c290.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/b738ca00-bdf1-463c-901e-28ae7001c290.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "2538bfed-e353-4dd8-bc95-0869f49fd79e.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/2538bfed-e353-4dd8-bc95-0869f49fd79e.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "23": {
+                    "freq": 1
+                },
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "846c5c2d-85a1-4f6b-895d-700f31c60e20.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/846c5c2d-85a1-4f6b-895d-700f31c60e20.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "8": {
+                    "freq": 1
+                }
+            }
+        },
+        "1525b67d-f473-4ba8-b88c-f9c54e6e8475.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/1525b67d-f473-4ba8-b88c-f9c54e6e8475.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "48843afc-117d-4dfe-9cc9-9f09b9e062b1.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/48843afc-117d-4dfe-9cc9-9f09b9e062b1.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "c265af27-f79a-4333-8643-1a0b4220d04c.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/c265af27-f79a-4333-8643-1a0b4220d04c.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "74318ad3-0d0a-4168-9f05-c094efc0ddd9.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/74318ad3-0d0a-4168-9f05-c094efc0ddd9.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "8": {
+                    "freq": 1
+                }
+            }
+        },
+        "9fb36d02-2ae2-4a9e-b70e-614f6f73ba07.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/9fb36d02-2ae2-4a9e-b70e-614f6f73ba07.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "5": {
+                    "freq": 1
+                },
+                "14": {
+                    "freq": 1
+                }
+            }
+        },
+        "2d74779c-09c4-4dab-b7e3-83ab7e35be7f.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/2d74779c-09c4-4dab-b7e3-83ab7e35be7f.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "12": {
+                    "freq": 1
+                }
+            }
+        },
+        "345bc0eb-c3a7-4507-8718-53e9e5db3e85.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/345bc0eb-c3a7-4507-8718-53e9e5db3e85.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "23": {
+                    "freq": 1
+                },
+                "34": {
+                    "freq": 1
+                }
+            }
+        },
+        "f286f257-b311-4bed-8f11-816d29603002.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/f286f257-b311-4bed-8f11-816d29603002.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "24": {
+                    "freq": 1
+                },
+                "30": {
+                    "freq": 1
+                }
+            }
+        },
+        "e1f270cc-26ff-48cf-8e6a-f1b36ab71b28.h5": {
+            "path": "/media/ssd1/stanford_2d/converted/test/e1f270cc-26ff-48cf-8e6a-f1b36ab71b28.h5",
+            "dataset_name": "stanford_2d",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                },
+                "13": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

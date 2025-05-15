@@ -1,0 +1,23 @@
+# @package _global_
+defaults:
+  - mri2d_multicoil/base_trafos_train
+
+diffmodels:
+  train:
+    save_model_every_n_epoch: 1
+    batch_size: 4
+    lr: 4e-4
+    cache_dataset: False
+    cache_dataset_in_gpu: False
+    dataloader_num_workers: 4
+
+  arch:
+    channel_mult: [1, 2, 3, 4, 4]
+    in_channels:  2
+    out_channels: 2
+    num_channels: 32
+    num_res_blocks: 2
+
+wandb:
+  log: False
+  group_name: mri2d_multicoil/train

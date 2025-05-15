@@ -1,0 +1,57 @@
+{
+    "dataset_name": "nyu_2d_curated_cor_pdfs",
+    "uuid": "4d7d9c28-5af0-44eb-83e0-3e0b3f8edc57",
+    "num_slices": 5,
+    "files": {
+        "edb3e7ff-463c-433e-94cf-700ed004365e.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/edb3e7ff-463c-433e-94cf-700ed004365e.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "5": {
+                    "freq": 1
+                }
+            }
+        },
+        "6c10376d-2825-4275-9d37-7cbac95b73d1.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/6c10376d-2825-4275-9d37-7cbac95b73d1.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "10": {
+                    "freq": 1
+                }
+            }
+        },
+        "3578cd98-650c-4489-884e-7e162202b961.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/3578cd98-650c-4489-884e-7e162202b961.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "21": {
+                    "freq": 1
+                }
+            }
+        },
+        "812594f8-1bbb-4855-8de8-9b24beb68dcc.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/812594f8-1bbb-4855-8de8-9b24beb68dcc.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "26": {
+                    "freq": 1
+                }
+            }
+        },
+        "9d4b66ea-e3db-4ea8-b3a8-1e6c2642e6d9.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/9d4b66ea-e3db-4ea8-b3a8-1e6c2642e6d9.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "30": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

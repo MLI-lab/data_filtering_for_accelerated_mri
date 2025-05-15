@@ -1,0 +1,34 @@
+name: data_pool_40k_epochs=30
+num_epochs: 30
+samples_seen: 1200090
+epochs_setup:
+  1: datasets/train/data_pool_40k.json
+  2: datasets/train/data_pool_40k.json
+  3: datasets/train/data_pool_40k.json
+  4: datasets/train/data_pool_40k.json
+  5: datasets/train/data_pool_40k.json
+  6: datasets/train/data_pool_40k.json
+  7: datasets/train/data_pool_40k.json
+  8: datasets/train/data_pool_40k.json
+  9: datasets/train/data_pool_40k.json
+  10: datasets/train/data_pool_40k.json
+  11: datasets/train/data_pool_40k.json
+  12: datasets/train/data_pool_40k.json
+  13: datasets/train/data_pool_40k.json
+  14: datasets/train/data_pool_40k.json
+  15: datasets/train/data_pool_40k.json
+  16: datasets/train/data_pool_40k.json
+  17: datasets/train/data_pool_40k.json
+  18: datasets/train/data_pool_40k.json
+  19: datasets/train/data_pool_40k.json
+  20: datasets/train/data_pool_40k.json
+  21: datasets/train/data_pool_40k.json
+  22: datasets/train/data_pool_40k.json
+  23: datasets/train/data_pool_40k.json
+  24: datasets/train/data_pool_40k.json
+  25: datasets/train/data_pool_40k.json
+  26: datasets/train/data_pool_40k.json
+  27: datasets/train/data_pool_40k.json
+  28: datasets/train/data_pool_40k.json
+  29: datasets/train/data_pool_40k.json
+  30: datasets/train/data_pool_40k.json

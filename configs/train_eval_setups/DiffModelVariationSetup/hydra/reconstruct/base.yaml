@@ -1,0 +1,33 @@
+# logging and scaling are the same for variational (and sampling)
+logging:
+  foreach_num_im_in_sample_log: 10
+  sample_statistics_period: 5 # 
+  mean_slice_period: 5 # must be a factor of sample_statistics_period; if it matches, median slices saved
+  video_period: 300 # must be a factor of sample_statistics_period; if it matches, video is saved
+  sample_statistics_take_medslices: true # if true, median slices are saved (if step % mean_slice_period != 0)
+  save_observation: false
+  save_filtbackproj: false
+  save_ground_truth: false
+  save_final_sample: false
+  store_k3d_volume: false
+  show_phase: false
+  log_3d_metrics_from_slices : true
+  log_data_is_complex : false
+  log_psnr_magnitude : false
+  log_3d_slice_metrics_use_vol_max : false
+  take_abs_normalize: true
+
+rescale_observation: True
+constant_scaling_factor : 1.0
+
+method: ??? # 'variational' or 'sampling'
+
+load_params_from_path: null
+load_ema_params_from_path: null
+
+use_score_regularisation: True
+use_score_pass_through: True
+
+use_filterbackproj_as_init: False
+use_l1wavelet_as_init: False
+

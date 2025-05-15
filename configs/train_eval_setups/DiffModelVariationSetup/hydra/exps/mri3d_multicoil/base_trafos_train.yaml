@@ -1,0 +1,40 @@
+# @package _global_
+
+defaults:
+  - override /trafo_dataset: mri2d
+  - override /trafo_fwd: null
+  - override /trafo_target: crop_mag
+  - override /trafo_prior: crop_mag
+
+trafo_prior:
+  params:
+    center_crop_enabled: False
+    magnitude_enabled: False
+    normalize_enabled: False
+    scaling_factor: 1.0
+    swap_channels: False
+    move_axis: [-1,1]
+    squeeze_channels: null
+    unsqueeze_channels: null
+
+trafo_target:
+  params:
+    center_crop_enabled: False # mvue eval
+    magnitude_enabled: True # mvue eval
+    normalize_enabled: False
+    scaling_factor: 1.0
+    swap_channels: False
+    squeeze_channels: null
+    unsqueeze_channels: null
+
+trafo_dataset:
+  params:
+    use_real_synth_data: false
+    scale_target_by_kspacenorm: true
+    scale_target_by_kspacenorm_3d: false
+    target_scaling_factor: 1.0
+    target_type: mvue
+    normalize_target: false
+    return_magnitude_image: false
+    multicoil_reduction_op: 'norm_sum_sensmaps' # not used
+    return_cropped_pseudoinverse: false

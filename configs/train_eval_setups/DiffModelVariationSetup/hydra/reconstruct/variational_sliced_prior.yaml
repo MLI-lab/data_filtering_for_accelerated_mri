@@ -1,0 +1,14 @@
+defaults:
+  - variational
+
+# slicing the data term
+slice_method_prior_reg:
+  name: rnd_slicing
+  params:
+    slice_budget: 30
+    slab_thickness:  5
+    slice_stride: 0
+    volume_indices: [0,1,2] # Z, Y, X
+    slice_enabled: [True, True, True]
+    swapaxis: [False, True, True]
+    keep_dims: [False, False, False]

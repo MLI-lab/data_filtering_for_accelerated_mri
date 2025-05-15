@@ -1,0 +1,20 @@
+defaults:
+  - diffmodels: base
+  - reconstruct: variational
+  - trafo_dataset: null
+  - trafo_fwd: null
+  - trafo_prior: identity
+  - trafo_target: identity
+  - hp_tuning: fixed_reg_value
+
+seed: 1
+  
+wandb:
+  log: True
+  log_artifact: False
+  project: mri-data
+  entity: anselm-krainovic
+  code_dir: ./
+  group_name:  group/name
+  descr_short: ???
+  note: ???

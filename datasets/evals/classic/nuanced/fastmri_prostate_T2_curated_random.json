@@ -1,0 +1,107 @@
+{
+    "dataset_name": "fastmri_prostate_T2_curated_random",
+    "uuid": "311157a7-e47b-4dbc-9979-18aa5b69b207",
+    "num_slices": 10,
+    "files": {
+        "file_prostate_AXT2_0028.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0028.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0104.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0104.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0207.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0207.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "6": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0165.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0165.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "9": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0180.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0180.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "12": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0215.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0215.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "15": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0269.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0269.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "18": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0184.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0184.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "21": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0004.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0004.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "24": {
+                    "freq": 1
+                }
+            }
+        },
+        "file_prostate_AXT2_0168.h5": {
+            "path": "/media/ssd0/fastMRIdata/prostate/T2_converted/test/file_prostate_AXT2_0168.h5",
+            "dataset_name": "fastmri_prostate_T2",
+            "split": "test",
+            "slices": {
+                "27": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

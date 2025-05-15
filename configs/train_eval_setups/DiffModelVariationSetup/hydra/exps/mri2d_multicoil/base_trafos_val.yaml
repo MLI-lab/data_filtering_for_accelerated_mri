@@ -1,0 +1,62 @@
+# @package _global_
+
+defaults:
+  - override /trafo_prior: crop_mag
+  - override /trafo_target: crop_mag
+  - override /trafo_dataset: mri2d
+  - override /trafo_fwd: mri2d
+
+trafo_target:
+  params:
+    center_crop_enabled: False
+    magnitude_enabled: True
+    normalize_enabled: False
+    scaling_factor: 1.0
+    swap_channels: False
+    squeeze_channels: null
+    unsqueeze_channels: null
+
+
+trafo_prior:
+  params:
+    center_crop_enabled: False
+    magnitude_enabled: False
+    normalize_enabled: False
+    scaling_factor: 1.0
+    swap_channels: False
+    unsqueeze_channels: [0]
+    move_axis: [-1,0]
+    squeeze_channels: null
+
+trafo_dataset:
+  params:
+    use_real_synth_data: False
+    scale_target_by_kspacenorm: False
+    target_scaling_factor: 1.0
+    normalize_target: False
+    multicoil_reduction_op: 'norm'
+    target_interpolate_by_factor: 1.0
+    target_type: mvue #rss, mvue
+    return_magnitude_image: False
+    return_cropped_pseudoinverse: False
+    mask_enabled: True
+    mask_type: 'equispaced' # equispaced, random, Poisson
+    # mask_accelerations: 4.0
+    # mask_center_fractions: [0.08]
+    # mask_accelerations: 8.0
+    # mask_center_fractions: [0.04]
+    mask_accelerations: 6.0
+    mask_center_fractions: [0.06]
+    mask_use_seed: True
+
+trafo_fwd:
+  params:
+    include_sensitivitymaps: True # calibrated via ESPIRiT
+    sensitivitymaps_complex : True
+    sensitivitymaps_fillouter : False
+    zero_padding: null
+    mask_enabled: True
+    mask_type: 'equispaced'
+    mask_accelerations: 4.0
+    mask_center_fractions: [0.08]
+    mask_use_seed: True

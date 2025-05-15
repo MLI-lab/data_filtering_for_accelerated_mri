@@ -1,0 +1,19 @@
+name: data_pool_random_volume_subset_360k_epochs=15
+num_epochs: 15
+samples_seen: 5392080
+epochs_setup:
+  1: datasets/train/data_pool_random_volume_subset_360k.json
+  2: datasets/train/data_pool_random_volume_subset_360k.json
+  3: datasets/train/data_pool_random_volume_subset_360k.json
+  4: datasets/train/data_pool_random_volume_subset_360k.json
+  5: datasets/train/data_pool_random_volume_subset_360k.json
+  6: datasets/train/data_pool_random_volume_subset_360k.json
+  7: datasets/train/data_pool_random_volume_subset_360k.json
+  8: datasets/train/data_pool_random_volume_subset_360k.json
+  9: datasets/train/data_pool_random_volume_subset_360k.json
+  10: datasets/train/data_pool_random_volume_subset_360k.json
+  11: datasets/train/data_pool_random_volume_subset_360k.json
+  12: datasets/train/data_pool_random_volume_subset_360k.json
+  13: datasets/train/data_pool_random_volume_subset_360k.json
+  14: datasets/train/data_pool_random_volume_subset_360k.json
+  15: datasets/train/data_pool_random_volume_subset_360k.json

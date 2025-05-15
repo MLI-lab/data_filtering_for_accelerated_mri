@@ -1,0 +1,5 @@
+defaults:
+  - base
+
+name: fixed_reg_value
+params: null # the fixed reg value from reconstruct.diffusion_reg_params.reg_strength is used in this case

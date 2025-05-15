@@ -1,0 +1,52 @@
+# @package _global_
+
+defaults:
+  - override /trafo_prior: crop_mag
+  - override /trafo_target: crop_mag
+  - override /trafo_dataset: mri3d
+  - override /trafo_fwd: mri3d
+
+# dataset comes in shape:
+# (kspace, mask_, target, attrs, fname, slice_num)
+
+trafo_target:
+  params:
+    center_crop_enabled: False
+    magnitude_enabled: True
+    normalize_enabled: False
+    scaling_factor: 1.0
+    swap_channels: False
+    squeeze_channels: null
+    unsqueeze_channels: null
+
+trafo_prior:
+  params:
+    center_crop_enabled: False
+    magnitude_enabled: False
+    normalize_enabled: False
+    scaling_factor: 1.0
+    swap_channels: True
+    unsqueeze_channels: null
+    move_axis: null
+    squeeze_channels: null
+
+trafo_dataset:
+  params:
+    # remaining parameters are std setting for fastmri_3d
+    mask_enabled: True
+    mask_type: 'Poisson2D' # equispaced, random, Poisson
+    mask_accelerations: 4.0
+    mask_center_fractions: [0.08]
+    mask_use_seed: True
+
+trafo_fwd:
+  params:
+    include_sensitivitymaps: True # calibrated via ESPIRiT
+    sensitivitymaps_complex : True
+    sensitivitymaps_fillouter : False
+    wrapped_2d_mode: False
+    mask_enabled: True
+    mask_type: 'Poisson2D'
+    mask_accelerations: 4.0
+    mask_center_fractions: [0.08]
+    mask_use_seed: True

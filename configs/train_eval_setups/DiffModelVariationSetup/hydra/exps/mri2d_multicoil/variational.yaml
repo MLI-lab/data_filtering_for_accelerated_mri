@@ -1,0 +1,46 @@
+# @package _global_
+defaults:
+  - mri2d_multicoil/base_trafos_val
+  - override /hp_tuning: tuning_gt
+  # - override /hp_tuning: cv_bisection
+
+hp_tuning:
+  params:
+    # validation_line_ration: 0
+    # reg_params_bound: [0.01, 0.49]
+    # validation_times: 1
+    # variational_optim_iterations_hp: 50
+    reg_params: null
+    # max_steps: 7
+
+reconstruct:
+  logging:
+    foreach_num_im_in_sample_log: 4         # every nth iteration the logger is called during fitting
+    sample_statistic_log_image_period: 50   # how often images are saved to wandb (must be factor of previous)
+
+  rescale_observation: true                 # this rescaled the observation such that the reco has a unit std approx.
+  constant_scaling_factor : 0.95            # for large accelerations a smaller value might be helpful
+
+  diffusion_reg_params:
+    reg_strength: 0.1                       # main important parameter (is ignored if hp tuning is used)
+
+  variational_optim:
+    lr: 1.0
+    iterations: 400
+    # plateau scheduler which reduces learning rate by factor after patience
+    lr_scheduler_params:
+      factor: 0.5
+      patience: 25
+
+diffmodels:
+  # architecture of the trained diffmodel
+  arch:
+    channel_mult: [1, 2, 3, 4, 4]
+    in_channels:  2
+    out_channels: 2
+    num_channels: 32
+    num_res_blocks: 2
+
+wandb:
+  log: False
+  group_name: mri2d_multicoil/var_bs4

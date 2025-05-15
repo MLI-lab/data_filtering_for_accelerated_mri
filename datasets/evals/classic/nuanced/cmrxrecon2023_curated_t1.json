@@ -1,0 +1,57 @@
+{
+    "dataset_name": "cmrxrecon2023_curated_t1",
+    "uuid": "279e2797-0558-42b1-be55-385794c3b497",
+    "num_slices": 5,
+    "files": {
+        "val_P047_T1map_t=5.h5": {
+            "path": "/media/ssd0/cmrxrecon2023/converted/val/val_P047_T1map_t=5.h5",
+            "dataset_name": "cmrxrecon2023",
+            "split": "val",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "val_P029_T1map_t=0.h5": {
+            "path": "/media/ssd0/cmrxrecon2023/converted/val/val_P029_T1map_t=0.h5",
+            "dataset_name": "cmrxrecon2023",
+            "split": "val",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "val_P021_T1map_t=2.h5": {
+            "path": "/media/ssd0/cmrxrecon2023/converted/val/val_P021_T1map_t=2.h5",
+            "dataset_name": "cmrxrecon2023",
+            "split": "val",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "val_P059_T1map_t=7.h5": {
+            "path": "/media/ssd0/cmrxrecon2023/converted/val/val_P059_T1map_t=7.h5",
+            "dataset_name": "cmrxrecon2023",
+            "split": "val",
+            "slices": {
+                "4": {
+                    "freq": 1
+                }
+            }
+        },
+        "val_P058_T1map_t=8.h5": {
+            "path": "/media/ssd0/cmrxrecon2023/converted/val/val_P058_T1map_t=8.h5",
+            "dataset_name": "cmrxrecon2023",
+            "split": "val",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

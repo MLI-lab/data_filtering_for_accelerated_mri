@@ -1,0 +1,8 @@
+model: varnet
+hyperparams:
+  num_cascades: 8
+  chans: 36
+accel_factors: 
+  - 8
+lr: 0.0005  
+batch_size: 2

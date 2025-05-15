@@ -1,0 +1,7 @@
+name: demo_accel_whole-heart_3D_T2_mapping
+num_epochs: 2
+samples_seen: 1912
+epochs_setup:
+  1: datasets/train/accel_whole-heart_3D_T2_mapping.json
+  2: datasets/train/accel_whole-heart_3D_T2_mapping.json
+

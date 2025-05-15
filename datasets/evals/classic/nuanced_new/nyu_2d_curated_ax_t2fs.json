@@ -1,0 +1,43 @@
+{
+    "dataset_name": "nyu_2d_curated_ax_t2fs",
+    "uuid": "98b73773-bae5-4bf4-926d-065830f1a255",
+    "num_slices": 5,
+    "files": {
+        "ac9a60ce-3d72-41c8-a0e7-a29d2022fd86.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/ac9a60ce-3d72-41c8-a0e7-a29d2022fd86.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "5": {
+                    "freq": 1
+                },
+                "26": {
+                    "freq": 1
+                }
+            }
+        },
+        "14b0b5bd-25f4-4e6c-aa50-5a0048a495f8.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/14b0b5bd-25f4-4e6c-aa50-5a0048a495f8.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "10": {
+                    "freq": 1
+                }
+            }
+        },
+        "36cb711d-5a2d-449a-b381-ab01c913055e.h5": {
+            "path": "/media/ssd0/nyu_2d/converted/test/36cb711d-5a2d-449a-b381-ab01c913055e.h5",
+            "dataset_name": "nyu_2d",
+            "split": "test",
+            "slices": {
+                "21": {
+                    "freq": 1
+                },
+                "30": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

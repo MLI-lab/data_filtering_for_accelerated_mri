@@ -1,0 +1,43 @@
+{
+    "dataset_name": "smurf_curated_knee_fatsat",
+    "uuid": "c3db7963-c733-46d8-8a37-297779dc7ba5",
+    "num_slices": 5,
+    "files": {
+        "knee_TSE_V1_fatSat.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V1_fatSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                },
+                "24": {
+                    "freq": 1
+                }
+            }
+        },
+        "knee_TSE_V2_fatSat.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V2_fatSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "6": {
+                    "freq": 1
+                },
+                "30": {
+                    "freq": 1
+                }
+            }
+        },
+        "knee_TSE_V3_fatSat.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V3_fatSat.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "12": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

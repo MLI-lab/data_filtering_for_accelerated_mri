@@ -1,0 +1,107 @@
+{
+    "dataset_name": "m4raw_gre_rot_curated_random",
+    "uuid": "42a569af-04fb-4810-bc41-c11e9cdc48b7",
+    "num_slices": 10,
+    "files": {
+        "2022091505_GRE01.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022091505_GRE01.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022061213_GRE01.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022061213_GRE01.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "1": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022090301_GRE01.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022090301_GRE01.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022061207_GRE02.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022061207_GRE02.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022062501_GRE01.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022062501_GRE01.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "4": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022061301_GRE02.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022061301_GRE02.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "6": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022090803_GRE02.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022090803_GRE02.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "8": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022090101_GRE01.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022090101_GRE01.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "10": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022062303_GRE02.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022062303_GRE02.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "12": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022090102_GRE01.h5": {
+            "path": "/media/ssd0/M4Raw/gre_val_rot/2022090102_GRE01.h5",
+            "dataset_name": "m4raw_gre_rot",
+            "split": "val",
+            "slices": {
+                "14": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+name: data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt_epochs=28
+num_epochs: 28
+samples_seen: 2409344
+epochs_setup:
+  1: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  2: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  3: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  4: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  5: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  6: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  7: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  8: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  9: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  10: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  11: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  12: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  13: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  14: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  15: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  16: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  17: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  18: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  19: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  20: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  21: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  22: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  23: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  24: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  25: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  26: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  27: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json
+  28: datasets/train/data_pool_aux_120k_dreamsim_ensemble_p128-p128+center_dedup=9e-1_mode_size_max_samples_40000_weighted_sqrt.json

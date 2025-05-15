@@ -1,0 +1,57 @@
+{
+    "dataset_name": "smurf_curated_breast_dixon",
+    "uuid": "b593a17e-38e4-4274-9c09-0c61bdba4d2e",
+    "num_slices": 5,
+    "files": {
+        "breasts_GRE_V4_2D3ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V4_2D3ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "0": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V4_2D3ptDixon_m1.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V4_2D3ptDixon_m1.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "1": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V5_2D3ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V5_2D3ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V5_2D3ptDixon_m1.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V5_2D3ptDixon_m1.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        },
+        "breasts_GRE_V6_2D3ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/breasts_GRE_V6_2D3ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "4": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

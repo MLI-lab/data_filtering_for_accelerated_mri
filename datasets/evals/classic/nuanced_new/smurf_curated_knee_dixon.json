@@ -1,0 +1,57 @@
+{
+    "dataset_name": "smurf_curated_knee_dixon",
+    "uuid": "ada8200b-8c55-460e-9856-a25568c4145e",
+    "num_slices": 5,
+    "files": {
+        "knee_TSE_V3_2ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V3_2ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "21": {
+                    "freq": 1
+                }
+            }
+        },
+        "knee_TSE_V3_2ptDixon_m1.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V3_2ptDixon_m1.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "15": {
+                    "freq": 1
+                }
+            }
+        },
+        "knee_TSE_V2_2ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V2_2ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "28": {
+                    "freq": 1
+                }
+            }
+        },
+        "knee_TSE_V2_2ptDixon_m1.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V2_2ptDixon_m1.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "9": {
+                    "freq": 1
+                }
+            }
+        },
+        "knee_TSE_V1_2ptDixon_m0.h5": {
+            "path": "/media/ssd0/smurf/converted/knee_TSE_V1_2ptDixon_m0.h5",
+            "dataset_name": "smurf",
+            "split": "test",
+            "slices": {
+                "3": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}

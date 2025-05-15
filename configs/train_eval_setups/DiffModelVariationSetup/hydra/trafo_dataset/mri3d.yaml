@@ -1,0 +1,36 @@
+defaults:
+  - base
+
+name: mri3d
+
+params:
+  which_challenge: 'multicoil' # 'singlecoil'
+  scale_target_by_kspacenorm: False # scales the target by sqrt( np.prod(shape) ) / kspace.norm()
+  target_scaling_factor: 1.0 # multiplies target with this factor
+  normalize_target: False # normalizes to pixelwise N(0,1)
+  multicoil_reduction_op: 'norm_sum_sensmaps' # sum, mean, norm
+  target_interpolate_by_factor: 1.0
+  return_magnitude_image: false
+  use_real_synth_data: False # returns fourier transform of target as synth measurement
+
+  target_type: 'mvue' # or 'rss' or 'recalc_target'
+
+  #return_magnitude_image: True # returns magnitude image instead of complex image
+  #return_cropped_pseudoinverse: True # returns magnitude image instead of complex image
+
+  #scale_target_by_kspacenorm: True # scales the target by sqrt( np.prod(shape) ) / kspace.norm()
+  #target_scaling_factor: 1.0 # multiplies target with this factor
+  #target_interpolate_by_factor : 1.0
+  #target_interpolate_factor_is_interval : false
+  #target_interpolate_method: 'nearest' # 'nearest', 'linear', 'cubic'
+  #target_random_crop_size : null
+  #normalize_target: False # normalizes to pixelwise N(0,1)
+  #target_type: 'rss' # 'complex_fullysampled_rec' 
+  #pseudoinverse_conv_averaging_shape: null
+  #multicoil_reduction_op: 'norm' # sum, mean, norm
+  #wrapped_2d: False
+  mask_enabled: True
+  mask_type: 'Poisson2D' # equispaced, random, Poisson
+  mask_accelerations: 4.0
+  mask_center_fractions: [0.08]
+  mask_use_seed: True

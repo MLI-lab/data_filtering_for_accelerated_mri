@@ -1,0 +1,57 @@
+{
+    "dataset_name": "m4raw_curated_flair",
+    "uuid": "c37cba5a-693d-4850-ac6a-dee20a48d456",
+    "num_slices": 5,
+    "files": {
+        "2022112704_FLAIR01.h5": {
+            "path": "/media/ssd0/M4Raw/multicoil_test_flip/2022112704_FLAIR01.h5",
+            "dataset_name": "m4raw",
+            "split": "test",
+            "slices": {
+                "2": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022121706_FLAIR03.h5": {
+            "path": "/media/ssd0/M4Raw/multicoil_test_flip/2022121706_FLAIR03.h5",
+            "dataset_name": "m4raw",
+            "split": "test",
+            "slices": {
+                "6": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022101302_FLAIR02.h5": {
+            "path": "/media/ssd0/M4Raw/multicoil_test_flip/2022101302_FLAIR02.h5",
+            "dataset_name": "m4raw",
+            "split": "test",
+            "slices": {
+                "10": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022120409_FLAIR04.h5": {
+            "path": "/media/ssd0/M4Raw/multicoil_test_flip/2022120409_FLAIR04.h5",
+            "dataset_name": "m4raw",
+            "split": "test",
+            "slices": {
+                "13": {
+                    "freq": 1
+                }
+            }
+        },
+        "2022120401_FLAIR01.h5": {
+            "path": "/media/ssd0/M4Raw/multicoil_test_flip/2022120401_FLAIR01.h5",
+            "dataset_name": "m4raw",
+            "split": "test",
+            "slices": {
+                "16": {
+                    "freq": 1
+                }
+            }
+        }
+    }
+}
