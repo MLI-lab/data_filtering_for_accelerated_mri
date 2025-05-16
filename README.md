@@ -4,8 +4,8 @@ This repository contains
 - code to download some of the datasets used in our work. Some datasets like the fastMRI or CMRxRecon dataset need to requested from the source.
 - code to convert the datasets into a consistent format used in our work.
 - code for training and evaluating models.
-- exact information on the training and evaluation configurations used in our work. For example, the folder `datasets/train` contains slice-level information about our unfiltered and filtered datasets.
-- the raw experimental data used in our work, which can be found in the foler `exp_data`.
+- exact information on the training and evaluation data, as well as training and model configurations. For example, `create_eval_sets.ipynb` illustrates our evaluation set and the folder `datasets/train` contains slice-level information about our unfiltered and filtered datasets.
+- the raw experimental results data, which can be found in the foler `exp_data`.
 
 ### How to use
 1. Run `bash setup.sh` to install all necessary packages.
@@ -61,5 +61,5 @@ You can also skip the `-T` or `-E` option to not rerun training/evaluation again
  ├───compute_embeddings.py              # computes dreamsim embeddings which are used for retrieval filtering
  ├───retrieval_filter.py                # applies retreival filtering on a dataset given a reference set
 ```
-**Note:** The folder `datasets` contains dataset files saved as `.json` files referencing the stored k-space data, not the k-space data itself. These files are mainly used to specfiy which k-space data to use for training and evaluation. Each file specfies the paths to k-space volumes (stored as `.h5` files following the fastMRI convention) and indicates which slices within a volume are used.
+**Note:** The folder `datasets` contains dataset files saved as `.json` does not contain the actual the k-space data. These files are mainly used to specfiy which k-space data to use for training and evaluation. Each file specfies the paths to k-space volumes (stored as `.h5` files following the fastMRI convention) and indicates which slices within a volume are used.
 
