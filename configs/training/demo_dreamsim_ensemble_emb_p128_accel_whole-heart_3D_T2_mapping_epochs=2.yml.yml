@@ -1,0 +1,7 @@
+name: demo_dreamsim_ensemble_emb_p128_accel_whole-heart_3D_T2_mapping_epochs=2
+num_epochs: 2
+samples_seen: 1074
+epochs_setup:
+  1: datasets/train/dreamsim_ensemble_emb_p128_accel_whole-heart_3D_T2_mapping.json
+  2: datasets/train/dreamsim_ensemble_emb_p128_accel_whole-heart_3D_T2_mapping.json
+
