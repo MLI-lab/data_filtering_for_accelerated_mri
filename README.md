@@ -9,10 +9,10 @@ This repository contains
 
 ### How to use
 1. Run `bash setup.sh` to install all necessary packages.
-2. Create an output directory (e.g. `/media/ssd2/data_filtering_mri/`) for saving created resources, such as datasets, model checkpoints, etc. The available disk space must be at least 130GB for running the demo.
-3. Adjust the absolute paths in `configs/paths/output_dirs.yml`. In that file, substitue `/media/ssd2/data_filtering_mri/` with the path you created in 2., and substitue `/kang/data_filtering_mri` with the absolute path to this repository.
-4. Run `bash run_demo.sh </path/to/output_directory/from_point_2>` for a demo. This will do the following:
-    - Downloads two datasets which will be saved in the output directory created in point 2. 
+2. Create an output directory `/path/to/output/directory` for saving created resources, such as datasets, model checkpoints, etc. The available disk space must be at least 130GB for running the demo.
+3. Adjust the absolute paths in `configs/paths/output_dirs.yml`. In that file, substitue `/path/to/output/directory` with the path you created in 2., and substitue `/path/to/this/repository` with the absolute path to this repository.
+4. Run `bash run_demo.sh </path/to/output/directory>` for a demo. This will do the following:
+    - Downloads two datasets which will be saved in `/path/to/output/directory` created in point 2. 
     - Converts the two datasets and saves them as HDF5 files. One dataset will serve as training set and the other as test set.
     - MVUE reconstructions will be computed and added to those HDF5 files.
     - Apply retrieval filtering on the training set based on the test set.

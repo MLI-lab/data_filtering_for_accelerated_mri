@@ -1,4 +1,4 @@
-name: demo_accel_whole-heart_3D_T2_mapping
+name: demo_accel_whole-heart_3D_T2_mapping_epochs=2
 num_epochs: 2
 samples_seen: 1912
 epochs_setup:

@@ -1,17 +1,18 @@
 # Base configuration which defines a common setup for all train eval setups
+# Substitue the two paths '/path/to/output/directory/' and '/path/to/this/repository/' with your directory locations
 # NOTE: All paths must be absolute!
 
 # Each train_eval_setup has a train and eval stage, which respectively provides outputs.
 # The paths given below are then concatenated with an identifier to the concrete setup.
 
-base_path_train_outputs: /media/ssd2/data_filtering_mri/train_outputs/
-base_path_eval_outputs: /media/ssd2/data_filtering_mri/eval_outputs/
-base_path_eval_summary_file: /kang/data_filtering_mri/exp_data/evals/
+base_path_train_outputs: /path/to/output/directory/train_outputs/
+base_path_eval_outputs: /path/to/output/directory/eval_outputs/
+base_path_eval_summary_file: /path/to/this/repository/exp_data/evals/
 
 # base paths for the configs (to make the scripts more concise)
-base_path_train_eval_setup_configs: /kang/data_filtering_mri/configs/train_eval_setups
-base_path_evals_dataset_configs: /kang/data_filtering_mri/configs/evals
-base_path_train_dataset_configs: /kang/data_filtering_mri/configs/training
+base_path_train_eval_setup_configs: /path/to/this/repository/configs/train_eval_setups
+base_path_evals_dataset_configs: /path/to/this/repository/configs/evals
+base_path_train_dataset_configs: /path/to/this/repository/configs/training
 
 # base paths for the libraries
-base_path_bart_lib: /kang/data_filtering_mri/bart-0.6.00
+base_path_bart_lib: /path/to/this/repository/bart-0.6.00
