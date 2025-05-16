@@ -23,9 +23,4 @@ def list_data_filtering_setups_str():
     return "\n".join(list_data_filtering_setups())
 
 from src.data_filt_setups.HeuristicFiltering.energy_filtering import EnergyFiltering
-from src.data_filt_setups.HeuristicFiltering.HighFrequencyFiltering import HighFrequencyFiltering
-from src.data_filt_setups.HeuristicFiltering.LaplacianBlurDetection import LaplacianBlurDetection
-from src.data_filt_setups.HeuristicFiltering.FlatDetection import SobelFlatRegionDetection
 from src.data_filt_setups.HeuristicFiltering.EdgeSparsityDetection import EdgeSparsityDetection
-from src.data_filt_setups.HeuristicFiltering.RandomPickDetection import RandomPickDetection
-from src.data_filt_setups.HeuristicFiltering.CoilWiseScoreFiltering import CoilWiseScoreFiltering
