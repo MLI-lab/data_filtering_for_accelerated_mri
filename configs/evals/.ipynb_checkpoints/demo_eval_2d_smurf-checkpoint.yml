@@ -1,4 +1,0 @@
-name: demo_eval_2d_smurf
-classic:
-- datasets/evals/classic/smurf.json
-pathology: []
